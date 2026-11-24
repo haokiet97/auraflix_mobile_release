@@ -4,7 +4,7 @@ APK chính thức cho **điện thoại Android** của AuraFlix (cài song song
 
 🌐 **Trang giới thiệu & tải nhanh:** <https://haokiet97.github.io/auraflix_mobile_release/>
 
-📘 **Hướng dẫn phát hành:** <https://github.com/haokiet97/auraflix_tv/blob/master/docs/RELEASE_GUIDE_MOBILE.md>
+📘 **Hướng dẫn phát hành:** [`RELEASE_GUIDE.md`](RELEASE_GUIDE.md)
 
 ## Tải bản mới nhất
 
