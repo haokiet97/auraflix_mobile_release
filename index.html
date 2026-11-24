@@ -489,7 +489,7 @@
       .hero { grid-template-columns: 1fr; gap: 30px; padding-top: 52px; }
       .hero-art { order: -1; }
       .phone { width: min(240px, 62vw); }
-      .float-card { left: calc(50% - 195px); bottom: 34px; }
+      .float-card { display: none; }
       .grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
       .shots { grid-template-columns: repeat(2, minmax(0, 1fr)); }
       .install-grid { grid-template-columns: 1fr; }
@@ -830,19 +830,9 @@
             $("downloadBtn").href = apk.browser_download_url;
             $("downloadBtnBottom").href = apk.browser_download_url;
             setSize(formatMB(apk.size));
-          }
-
-          var shaAsset = assets.filter(function (a) {
-            return /\.sha256$/i.test(a.name || "");
-          })[0];
-
-          if (shaAsset && shaAsset.browser_download_url) {
-            fetch(shaAsset.browser_download_url).then(function (r) {
-              if (!r.ok) throw new Error();
-              return r.text();
-            }).then(function (text) {
-              setSha(text);
-            }).catch(function () { /* giữ mã băm dự phòng */ });
+            if (apk.digest) {
+              setSha(String(apk.digest).replace(/^sha256:/i, ""));
+            }
           }
         }).catch(function () {
           applyFallback();
