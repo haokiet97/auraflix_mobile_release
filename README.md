@@ -12,6 +12,7 @@ APK chính thức cho **điện thoại Android** của AuraFlix (cài song song
 
 | Phiên bản | APK | Dung lượng |
 |---|---|---|
+| 1.0.1 | `AuraFlixMobile-1.0.1.apk` | 3.07 MB |
 | 1.0.0 | `AuraFlixMobile-1.0.0.apk` | 3.07 MB |
 
 ## Cài đặt
@@ -23,7 +24,7 @@ APK chính thức cho **điện thoại Android** của AuraFlix (cài song song
 Hoặc qua ADB:
 
 ```bash
-adb install -r AuraFlixMobile-1.0.0.apk
+adb install -r AuraFlixMobile-1.0.1.apk
 ```
 
 ## Cập nhật trong ứng dụng
