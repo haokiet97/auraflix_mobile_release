@@ -12,10 +12,17 @@ APK chính thức cho **điện thoại Android** của AuraFlix (cài song song
 
 | Phiên bản | APK | Dung lượng |
 |---|---|---|
+| 1.1.0 | `AuraFlixMobile-1.1.0.apk` | 3.13 MB |
 | 1.0.3 | `AuraFlixMobile-1.0.3.apk` | 3.07 MB |
 | 1.0.2 | `AuraFlixMobile-1.0.2.apk` | 3.07 MB |
 | 1.0.1 | `AuraFlixMobile-1.0.1.apk` | 3.07 MB |
 | 1.0.0 | `AuraFlixMobile-1.0.0.apk` | 3.07 MB |
+
+## Có gì mới ở v1.1.0
+
+- Điều khiển **AuraFlix TV** trong cùng Wi-Fi: tự tìm TV, ghép cặp bằng PIN, chọn phim và phát trên TV.
+- Thanh mini "Đang phát trên TV" + bộ điều khiển (phát/tạm dừng, tua ±10 s, chọn tập, dừng)
+- Xem chi tiết: [`docs/RELEASE_NOTES_v1.1.0.md`](docs/RELEASE_NOTES_v1.1.0.md) và [`CAST.md`](CAST.md)
 
 ## Cài đặt
 
@@ -26,7 +33,7 @@ APK chính thức cho **điện thoại Android** của AuraFlix (cài song song
 Hoặc qua ADB:
 
 ```bash
-adb install -r AuraFlixMobile-1.0.3.apk
+adb install -r AuraFlixMobile-1.1.0.apk
 ```
 
 ## Cập nhật trong ứng dụng
