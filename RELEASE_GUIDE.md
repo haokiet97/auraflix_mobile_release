@@ -1,7 +1,7 @@
 # Hướng dẫn phát hành AuraFlix Mobile
 
 > Quy trình chuẩn để đóng gói, phát hành và kiểm tra một bản AuraFlix Mobile mới.
-> Cập nhật lần cuối: **24/11/2026** · Bản hiện tại: **v1.0.0**
+> Cập nhật lần cuối: **28/11/2026** · Bản hiện tại: **v1.2.0**
 >
 > Bản công khai của hướng dẫn phát hành. Bản gốc nằm trong repo nguồn (riêng tư)
 > tại `docs/RELEASE_GUIDE_MOBILE.md`.
